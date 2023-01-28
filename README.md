@@ -21,7 +21,7 @@ You can refine the count by clearing the string prior t splitting or validatting
 #DEVELOPED BY: Raja R
 #REGISTER NO: 22004914
 num_words=0
-with open('test.txt', 'r') as file1:
+with open('git.txt', 'r') as file1:
     for i in file1:
         word=i.split()
         num_words += len(word)
